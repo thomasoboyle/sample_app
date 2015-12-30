@@ -1619,3 +1619,6 @@ Started GET "/static_pages/help" for ::1 at 2015-12-27 20:12:38 -0800
 Processing by StaticPagesController#help as HTML
   Rendered static_pages/help.html.erb within layouts/application (0.3ms)
 Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for ::1 at 2015-12-29 20:22:54 -0800
