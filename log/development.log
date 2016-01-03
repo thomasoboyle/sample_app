@@ -1813,3 +1813,15 @@ Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bd
 
 
 Started GET "/assets/rails-c094bc3a4bf50e5bb477109e5cb0d213af27ad75b481c4df249f50974dbeefe6.png" for ::1 at 2016-01-01 10:20:48 -0800
+
+
+Started GET "/" for ::1 at 2016-01-03 09:23:19 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2618.2ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 2771ms (Views: 2756.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-aed41ea65a8e70693d7482c3cc7af216ab397882ac5fa1a459c4c2d3cbaee567.css?body=1" for ::1 at 2016-01-03 09:23:22 -0800
