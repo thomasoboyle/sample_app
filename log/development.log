@@ -5130,3 +5130,604 @@ Started PUT "/console/repl_sessions/14" for ::1 at 2016-01-14 20:34:22 -0800
 
 
 Started PUT "/console/repl_sessions/14" for ::1 at 2016-01-14 20:34:22 -0800
+
+
+Started GET "/" for ::1 at 2016-01-14 21:12:01 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (186.1ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (15.0ms)
+Completed 500 Internal Server Error in 270ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `current_user' for #<#<Class:0x007fa617c8a608>:0x007fa617c89c08>):
+  app/helpers/sessions_helper.rb:13:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__3151527838017056545_70175707072400'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3056479059679313386_70175670241440'
+
+
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (12.4ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (6.0ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.7ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (90.9ms)
+
+
+Started GET "/" for ::1 at 2016-01-14 21:16:13 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (11.8ms)
+Completed 500 Internal Server Error in 66ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `current_user' for #<#<Class:0x007fa617c8a608>:0x007fa617d0b528>):
+  app/helpers/sessions_helper.rb:13:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__3151527838017056545_70175644359080'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3056479059679313386_70175670241440'
+
+
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (4.8ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (67.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-14 21:16:14 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (9.9ms)
+Completed 500 Internal Server Error in 48ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `current_user' for #<#<Class:0x007fa617c8a608>:0x007fa614195b88>):
+  app/helpers/sessions_helper.rb:13:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__3151527838017056545_70175644359080'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3056479059679313386_70175670241440'
+
+
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (5.1ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.6ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (79.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-14 21:16:15 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (9.6ms)
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `current_user' for #<#<Class:0x007fa617c8a608>:0x007fa613da97b8>):
+  app/helpers/sessions_helper.rb:13:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__3151527838017056545_70175644359080'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3056479059679313386_70175670241440'
+
+
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (4.6ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (67.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-14 21:16:15 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (9.2ms)
+Completed 500 Internal Server Error in 43ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `current_user' for #<#<Class:0x007fa617c8a608>:0x007fa61e96b498>):
+  app/helpers/sessions_helper.rb:13:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__3151527838017056545_70175644359080'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3056479059679313386_70175670241440'
+
+
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (6.0ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.9ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (70.2ms)
+
+
+Started GET "/" for ::1 at 2016-01-14 21:16:15 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (11.0ms)
+Completed 500 Internal Server Error in 47ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `current_user' for #<#<Class:0x007fa617c8a608>:0x007fa614c041c8>):
+  app/helpers/sessions_helper.rb:13:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__3151527838017056545_70175644359080'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3056479059679313386_70175670241440'
+
+
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (4.9ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.6ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (66.7ms)
+
+
+Started GET "/" for ::1 at 2016-01-14 21:16:15 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (9.6ms)
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `current_user' for #<#<Class:0x007fa617c8a608>:0x007fa61b55fd70>):
+  app/helpers/sessions_helper.rb:13:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__3151527838017056545_70175644359080'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3056479059679313386_70175670241440'
+
+
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (4.5ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.6ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (67.3ms)
+
+
+Started GET "/" for ::1 at 2016-01-14 21:16:16 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (12.3ms)
+Completed 500 Internal Server Error in 45ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `current_user' for #<#<Class:0x007fa617c8a608>:0x007fa61d3d67b8>):
+  app/helpers/sessions_helper.rb:13:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__3151527838017056545_70175644359080'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3056479059679313386_70175670241440'
+
+
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (5.3ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (70.1ms)
+
+
+Started GET "/" for ::1 at 2016-01-14 21:16:16 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (12.9ms)
+Completed 500 Internal Server Error in 63ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `current_user' for #<#<Class:0x007fa617c8a608>:0x007fa6149ef338>):
+  app/helpers/sessions_helper.rb:13:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__3151527838017056545_70175644359080'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3056479059679313386_70175670241440'
+
+
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (6.5ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (72.1ms)
+
+
+Started GET "/" for ::1 at 2016-01-14 21:16:16 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (14.6ms)
+Completed 500 Internal Server Error in 57ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `current_user' for #<#<Class:0x007fa617c8a608>:0x007fa61d2b5ca8>):
+  app/helpers/sessions_helper.rb:13:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__3151527838017056545_70175644359080'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3056479059679313386_70175670241440'
+
+
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (8.0ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.8ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (79.3ms)
+
+
+Started GET "/" for ::1 at 2016-01-14 21:16:16 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (13.9ms)
+Completed 500 Internal Server Error in 57ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `current_user' for #<#<Class:0x007fa617c8a608>:0x007fa61c5baa58>):
+  app/helpers/sessions_helper.rb:13:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__3151527838017056545_70175644359080'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3056479059679313386_70175670241440'
+
+
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (5.3ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (75.7ms)
+
+
+Started GET "/" for ::1 at 2016-01-14 21:16:16 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (12.9ms)
+Completed 500 Internal Server Error in 59ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `current_user' for #<#<Class:0x007fa617c8a608>:0x007fa620963f70>):
+  app/helpers/sessions_helper.rb:13:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__3151527838017056545_70175644359080'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3056479059679313386_70175670241440'
+
+
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (4.7ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.9ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (67.7ms)
+
+
+Started GET "/" for ::1 at 2016-01-14 21:16:17 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (11.1ms)
+Completed 500 Internal Server Error in 42ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `current_user' for #<#<Class:0x007fa617c8a608>:0x007fa61b3d8948>):
+  app/helpers/sessions_helper.rb:13:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__3151527838017056545_70175644359080'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3056479059679313386_70175670241440'
+
+
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (4.5ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (67.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-14 21:16:17 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (10.1ms)
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `current_user' for #<#<Class:0x007fa617c8a608>:0x007fa617ce22b8>):
+  app/helpers/sessions_helper.rb:13:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__3151527838017056545_70175644359080'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3056479059679313386_70175670241440'
+
+
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (4.4ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.6ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (64.8ms)
+
+
+Started GET "/" for ::1 at 2016-01-14 21:16:17 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (10.5ms)
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `current_user' for #<#<Class:0x007fa617c8a608>:0x007fa61d648e60>):
+  app/helpers/sessions_helper.rb:13:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__3151527838017056545_70175644359080'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3056479059679313386_70175670241440'
+
+
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (4.9ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.6ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (74.8ms)
+
+
+Started GET "/" for ::1 at 2016-01-14 21:16:17 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (14.0ms)
+Completed 500 Internal Server Error in 56ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `current_user' for #<#<Class:0x007fa617c8a608>:0x007fa61b7d6838>):
+  app/helpers/sessions_helper.rb:13:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__3151527838017056545_70175644359080'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3056479059679313386_70175670241440'
+
+
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (5.4ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.5ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (71.1ms)
+
+
+Started GET "/" for ::1 at 2016-01-14 21:16:18 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (10.7ms)
+Completed 500 Internal Server Error in 45ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `current_user' for #<#<Class:0x007fa617c8a608>:0x007fa61e189d38>):
+  app/helpers/sessions_helper.rb:13:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__3151527838017056545_70175644359080'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3056479059679313386_70175670241440'
+
+
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (5.0ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.6ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (67.4ms)
+
+
+Started GET "/" for ::1 at 2016-01-14 21:16:18 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (11.9ms)
+Completed 500 Internal Server Error in 45ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `current_user' for #<#<Class:0x007fa617c8a608>:0x007fa6142268b8>):
+  app/helpers/sessions_helper.rb:13:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__3151527838017056545_70175644359080'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3056479059679313386_70175670241440'
+
+
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (5.6ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (65.7ms)
+
+
+Started GET "/" for ::1 at 2016-01-14 21:16:18 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (10.5ms)
+Completed 500 Internal Server Error in 46ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `current_user' for #<#<Class:0x007fa617c8a608>:0x007fa617b68a40>):
+  app/helpers/sessions_helper.rb:13:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__3151527838017056545_70175644359080'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3056479059679313386_70175670241440'
+
+
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (4.3ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.5ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (65.5ms)
+
+
+Started GET "/" for ::1 at 2016-01-14 21:16:18 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (11.1ms)
+Completed 500 Internal Server Error in 56ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `current_user' for #<#<Class:0x007fa617c8a608>:0x007fa61f8babb0>):
+  app/helpers/sessions_helper.rb:13:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__3151527838017056545_70175644359080'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3056479059679313386_70175670241440'
+
+
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (6.0ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.6ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (70.5ms)
+
+
+Started GET "/" for ::1 at 2016-01-14 21:16:18 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (9.5ms)
+Completed 500 Internal Server Error in 44ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `current_user' for #<#<Class:0x007fa617c8a608>:0x007fa61b432ec0>):
+  app/helpers/sessions_helper.rb:13:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__3151527838017056545_70175644359080'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3056479059679313386_70175670241440'
+
+
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (5.4ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (67.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-14 21:16:19 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (9.1ms)
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `current_user' for #<#<Class:0x007fa617c8a608>:0x007fa614bb5050>):
+  app/helpers/sessions_helper.rb:13:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__3151527838017056545_70175644359080'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3056479059679313386_70175670241440'
+
+
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (5.7ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.0ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (69.3ms)
+
+
+Started GET "/" for ::1 at 2016-01-14 21:16:19 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (11.4ms)
+Completed 500 Internal Server Error in 49ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `current_user' for #<#<Class:0x007fa617c8a608>:0x007fa617c711f8>):
+  app/helpers/sessions_helper.rb:13:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__3151527838017056545_70175644359080'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3056479059679313386_70175670241440'
+
+
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (7.0ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.6ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (69.7ms)
+
+
+Started GET "/" for ::1 at 2016-01-14 21:16:19 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (21.8ms)
+Completed 500 Internal Server Error in 52ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `current_user' for #<#<Class:0x007fa617c8a608>:0x007fa61d308200>):
+  app/helpers/sessions_helper.rb:13:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__3151527838017056545_70175644359080'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3056479059679313386_70175670241440'
+
+
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (5.9ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (70.8ms)
+
+
+Started GET "/" for ::1 at 2016-01-14 21:16:19 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (9.6ms)
+Completed 500 Internal Server Error in 43ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `current_user' for #<#<Class:0x007fa617c8a608>:0x007fa61f8ec980>):
+  app/helpers/sessions_helper.rb:13:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__3151527838017056545_70175644359080'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3056479059679313386_70175670241440'
+
+
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (4.8ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (67.9ms)
+
+
+Started GET "/" for ::1 at 2016-01-14 21:16:20 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (10.3ms)
+Completed 500 Internal Server Error in 46ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `current_user' for #<#<Class:0x007fa617c8a608>:0x007fa61b649f88>):
+  app/helpers/sessions_helper.rb:13:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__3151527838017056545_70175644359080'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3056479059679313386_70175670241440'
+
+
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (5.1ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.6ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (65.3ms)
+
+
+Started GET "/" for ::1 at 2016-01-14 21:16:20 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (10.9ms)
+Completed 500 Internal Server Error in 47ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `current_user' for #<#<Class:0x007fa617c8a608>:0x007fa61c510148>):
+  app/helpers/sessions_helper.rb:13:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__3151527838017056545_70175644359080'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3056479059679313386_70175670241440'
+
+
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (4.4ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.5ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (66.3ms)
+
+
+Started GET "/" for ::1 at 2016-01-14 21:16:20 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (9.3ms)
+Completed 500 Internal Server Error in 52ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `current_user' for #<#<Class:0x007fa617c8a608>:0x007fa61e80a400>):
+  app/helpers/sessions_helper.rb:13:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__3151527838017056545_70175644359080'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3056479059679313386_70175670241440'
+
+
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (5.9ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.6ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (72.0ms)
+
+
+Started GET "/" for ::1 at 2016-01-14 21:16:20 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (11.5ms)
+Completed 500 Internal Server Error in 47ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `current_user' for #<#<Class:0x007fa617c8a608>:0x007fa61fb40b00>):
+  app/helpers/sessions_helper.rb:13:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__3151527838017056545_70175644359080'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3056479059679313386_70175670241440'
+
+
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (5.1ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (66.4ms)
+
+
+Started GET "/" for ::1 at 2016-01-14 21:16:21 -0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (9.7ms)
+Completed 500 Internal Server Error in 44ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `current_user' for #<#<Class:0x007fa617c8a608>:0x007fa61432ff20>):
+  app/helpers/sessions_helper.rb:13:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__3151527838017056545_70175644359080'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3056479059679313386_70175670241440'
+
+
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (4.9ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /Users/thomasoboyle/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (67.7ms)
