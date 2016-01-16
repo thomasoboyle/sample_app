@@ -7,4 +7,11 @@ class User < ActiveRecord::Base
 					  uniqueness: { case_sensitive: false }
 	has_secure_password
 	validates :password, presence: true, length: { minimum: 6 }
+
+	# Returns the has digest of the given string.
+	def User.digest(string)
+		cost = ActiveModel::SecurePassword.min_cost ? BCrpyt::Engine::MIN_COST :
+													  BCrpyt::Engine.cost
+		BCrpyt::Password.create(string, cost: cost)
+	end
 end
