@@ -10875,3 +10875,4 @@ Processing by Rails::MailersController#preview as HTML
 UserMailer#account_activation: processed outbound mail in 12.8ms
   Rendered text template (0.0ms)
 Completed 200 OK in 15ms (Views: 0.2ms | ActiveRecord: 0.1ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
