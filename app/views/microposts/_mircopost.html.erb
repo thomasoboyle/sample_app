@@ -1,8 +1,0 @@
-<li id="miropost-<%= mircopost.id %>">
-  <%= link_to gravatar_for(mircopost.user, size: 50), mircopost.user %>
-  <span class="user"><%= link_to micropost.user.name, miropost.user %></span>
-  <span class="content"><%= mircopost.content %></span>
-  <span class="timestamp">
-    Posted <%= time_ago_in_words(mircopost.created_at) %> ago.
-  </span>
-</li>
