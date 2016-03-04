@@ -22,5 +22,5 @@ most_recent:
 micropost_<%= n %>:
   content: <%= Faker::Lorem.sentence(5) %>
   created_at: <%= 42.days.ago %>
-  user: michael
+  user: thomas
 <% end %>
