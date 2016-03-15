@@ -71,6 +71,7 @@ class User < ActiveRecord::Base
   # See "Following users" for the full implementation.
   def feed
     Mircpost.where("user_id = ?", id)
+  end
 
   private
 
